@@ -133,9 +133,13 @@ body {
     /*width: 50%;*/
     height: auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px;    
     /*margin: 25px;*/
 }
+
+.services-card:hover {
+    background-color: lightcoral;
+    transition: 0.5s;
 
  /*Make portfolio a slider corousel*/
  .portfolio {
