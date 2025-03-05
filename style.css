@@ -138,7 +138,7 @@ body {
 }
 
 .services-card:hover {
-    background-color: lightcoral;
+    background-color: rgb(53, 186, 124);
     transition: 0.5s;
 
  /*Make portfolio a slider corousel*/
