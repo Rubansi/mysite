@@ -23,7 +23,7 @@ body {
  }
 
  p {
-     font-family: , Helvetica, sans-serif;
+     font-family: "Segoe UI", "Arial", sans-serif;
      font-size: 1.2em;
      padding: 10px;
  }
@@ -115,6 +115,27 @@ body {
     align-items: center;
     gap: 30px;
     padding: 85px 85px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    align-items: center;
+    width: 350px;
+    /*width: 50%;*/
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    /*margin: 25px;*/
+
 
 }
 
@@ -152,9 +173,9 @@ body {
      color: aquamarine;
      font-family: Arial, Helvetica, sans-serif;
      align-content: center;
-     background-color: blue;
+     background-color: lightseagreen;
      width: 50%;
-     height: 100px;
+     height: 350px;
      margin: 100px;
      text-align: center;
      border-radius: 10px;
@@ -166,12 +187,19 @@ body {
      align-content: center;
      align-items: center;
      text-align: center;
-     background-color: green;
+     /*background-color: green;*/
      width: 50%;
      height: 100px;
      margin: 100px;
-     border-radius: 20px;
+     /*border-radius: 20px;*/
  }
+
+/*.phone img {*/
+/*    !*border-radius: 25%;*!*/
+/*    width: 80%;*/
+/*    border-radius: 15px;*/
+/*}*/
+
 
  .footer {
      display: flex;
@@ -185,7 +213,9 @@ body {
      /*list-style: none;*/
      color: white;
      font-family: Verdana, sans-serif;
+
  }
+
 
  .footer ul {
      list-style: none;
