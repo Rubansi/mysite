@@ -28,15 +28,16 @@ body {
      padding: 10px;
  }
 
-/* Make the navbar sticky and rounder*/
+/* Make the navbar sticky and rounded*/
 .navbar {
-    background-color: darkblue;
+    background-color: lightsalmon;
     color: white;
-    width : 80%;
+    width: 99% !important;
     /*position: absolute;*/
     /*align-content: center;*/
-    margin: 1.5px auto;
-    border-radius: 15px;
+    margin: 2px;
+    border-radius: 100px;
+    position: fixed;
 
 }
 
@@ -45,7 +46,7 @@ body {
      background-color: lightblue;
      text-align: center;
      width: auto;
-     padding: 125px;
+     padding: 135px;
  }
 
  .hero-section h1 {
@@ -172,13 +173,15 @@ body {
  .footer {
      display: flex;
      flex-direction: row;
-     background-color: bisque;
+     background-color: midnightblue;
      text-align: center;
-     height: auto;
+     height: 100px;
      align-items: center;
      /*align-content: center;*/
      gap: 100px;
      /*list-style: none;*/
+     color: white;
+     font-family: Verdana, sans-serif;
  }
 
  .footer ul {
