@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgray;
+    background-color: floralwhite;
 }
  h1 {
      text-align: center;
@@ -19,6 +19,36 @@ body {
      font-family: Arial, Helvetica, sans-serif
  }
 
+.navbar {
+    background-color: darkblue;
+    color: white;
+}
+
+
+ .hero-section {
+     background-color: lightblue;
+     text-align: center;
+     width: auto;
+     padding: 125px;
+ }
+
+ .hero-section h1 {
+     text-align: center;
+     color: midnightblue;
+     padding: 20px;
+     font-family: "Century Gothic", Helvetica, sans-serif;
+ }
+
+ .hero-section p {
+     text-align: center;
+ }
+
+.hero-section a {
+    text-align: center;
+    text-underline: none;
+}
+
+
  .about {
      font-family: Arial, Helvetica, sans-serif;
      display: flex;
@@ -29,18 +59,29 @@ body {
      padding: 30px;
       }
 
- .mission, .vision {
+
+  .mission, .vision {
      background-color: aquamarine;
      width: 50%;
      /*height: 200%;*/
 
  }
 
+.services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
 
+}
+
+}
  .portfolio {
      background-color: beige;
      width: auto;
      height: auto;
+
  }
 
  .contact {
