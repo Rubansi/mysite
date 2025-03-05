@@ -30,7 +30,7 @@ body {
 
 /* Make the navbar sticky and rounded*/
 .navbar {
-    background-color: lightsalmon;
+    background-color: darkblue;
     color: white;
     width: 99% !important;
     /*position: absolute;*/
@@ -153,54 +153,21 @@ body {
  }
 
  .contact {
-     width: auto;
-     height: auto;
-     align-items: center;
-     margin: auto;
-     padding-top: 50px;
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     background-color: lightblue;
- }
- .contact-content {
-     display: flex;
-     flex-direction: row;
-     width: 100%;
-     height: 350px;
-     gap: 20px;
-     align-items: center;
- }
- .email {
-     color: aquamarine;
-     font-family: Arial, Helvetica, sans-serif;
-     align-content: center;
-     background-color: lightseagreen;
-     width: 50%;
-     height: 350px;
-     margin: 100px;
-     text-align: center;
-     border-radius: 10px;
- }
+    background-color: beige;
 
- .phone {
-     color: beige;
-     font-family: Arial, Helvetica, sans-serif;
-     align-content: center;
-     align-items: center;
-     text-align: center;
-     /*background-color: green;*/
-     width: 50%;
-     height: 100px;
-     margin: 100px;
-     /*border-radius: 20px;*/
  }
+ 
+ 
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    align-items: center;
+    background-color: aquamarine;
 
-/*.phone img {*/
-/*    !*border-radius: 25%;*!*/
-/*    width: 80%;*/
-/*    border-radius: 15px;*/
-/*}*/
+
+}
 
 
  .footer {
