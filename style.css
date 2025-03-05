@@ -23,7 +23,7 @@ body {
  }
 
  p {
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: , Helvetica, sans-serif;
      font-size: 1.2em;
      padding: 10px;
  }
@@ -35,10 +35,9 @@ body {
     width: 99% !important;
     /*position: absolute;*/
     /*align-content: center;*/
-    margin: 2px;
-    border-radius: 100px;
+    margin: 0 5px;
+    /*border-radius: 100px;*/
     position: fixed;
-
 }
 
 
@@ -46,7 +45,7 @@ body {
      background-color: lightblue;
      text-align: center;
      width: auto;
-     padding: 135px;
+     padding: 185px 100px 50px 100px
  }
 
  .hero-section h1 {
@@ -58,9 +57,10 @@ body {
 
  .hero-section p {
      text-align: center;
-     padding-bottom: 25px;
+     padding-bottom: 45px;
      line-height: 1.6em;
      font-size: 1.2em;
+     margin: 0 300px;
  }
 
 
@@ -70,12 +70,14 @@ body {
     text-align: center;
     text-underline: none;
     color: darkslategrey;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: lightsalmon;
     text-decoration: none;
     border-radius: 5px;
-
+    /*border-width: 100px;*/
+    /*width: 20px;*/
+    align-content: center;
 }
 
  /*Make this responsive*/
@@ -88,6 +90,7 @@ body {
      gap: 30px;
      padding: 100px;
       }
+
 .about-container {
     display: flex;
     flex-direction: row;
