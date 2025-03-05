@@ -94,6 +94,11 @@ body {
      text-align: center;
      height: auto;
      align-items: center;
-     align-content: center;
+     /*align-content: center;*/
      gap: 100px;
+     /*list-style: none;*/
+ }
+
+ .footer ul {
+     list-style: none;
  }
