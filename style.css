@@ -152,41 +152,10 @@ body {
 
  }
 
- .contact {
-    background-color: beige;
-
- }
- 
- 
-.portfolio {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    gap: 30px;
-    align-items: center;
+ .portfolio-card {
     background-color: aquamarine;
-
-
-}
-
-
- .footer {
-     display: flex;
-     flex-direction: row;
-     background-color: midnightblue;
-     text-align: center;
-     height: 100px;
-     align-items: center;
-     /*align-content: center;*/
-     gap: 100px;
-     /*list-style: none;*/
-     color: white;
-     font-family: Verdana, sans-serif;"
-     
-
  }
 
-
- .footer ul {
-     list-style: none;
+ .foot {
+    background-color: blue;
  }
