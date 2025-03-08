@@ -256,3 +256,28 @@ body {
     color: white;
     transform: rotateY(180deg);
   }
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    width: 50%;
+    length: auto;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .contact-info {
+    background-color: aqua;
+    height: 300px;
+    border-radius: 15px;
+    width: 300px;
+  }
+
+  .img {
+    border-radius: 15px;
+  }
+
+  
