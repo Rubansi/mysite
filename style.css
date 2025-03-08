@@ -140,10 +140,11 @@ body {
 .services-card:hover {
     background-color: rgb(53, 186, 124);
     transition: 0.5s;
+}
 
  /*Make portfolio a slider corousel*/
  .portfolio {
-     background-color: darkcyan;
+     background-color: cyan;
      width: auto;
      height: auto;
      align-items: center;
@@ -152,10 +153,59 @@ body {
 
  }
 
- .portfolio-card {
-    background-color: aquamarine;
+ 
+ .portfolio-container {
+    background-color: cyan;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 50px;
+    width: auto;
+
  }
 
+ .portfolio-card {
+    background-color: beige;
+    border-radius: 20px;
+    height: auto;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 80px;
+
+ }
+
+ .portfolio-card:hover {
+    transform: rotate();
+ }
+
+.btn {
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    text-decoration: none;
+    border-color: darkorange;
+    /* border-width: 2px; */
+
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
  .foot {
-    background-color: blue;
+    background-color: aquamarine;
+    align-items: center;
+    text-align: center;
+
+ }
+
+
+ .flip-card {
+    background-color: transparent;
+    
  }
