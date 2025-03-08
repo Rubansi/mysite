@@ -37,12 +37,25 @@ body {
 
 
 .navbar a {
-    float: right;
+    float: left;
     color: aliceblue;
     text-align: center;
     padding: 14px 16px;
+    /* align-items: center; */
     text-decoration: none;
     font-size: 17px;
+    
+}
+
+.navbar a:hover {
+    background-color: #bbb;
+    color: blue;
+    
+}
+
+.navbar a.active {
+    background-color: bisque;
+    color: antiquewhite;
 }
 
 
