@@ -25,7 +25,7 @@ const animal = {
     name:"goat"
 }
 
-//crud
+//CRUD
 
 //READ - Accessing object properties - 
 // const name = object.property
@@ -36,4 +36,15 @@ console.log (animal.head.eyes)
 console.log (animal ["name"])
 console.log (animal ["name"],["head"],["eyes"])
 
+//always use the dot notation
+
+//UPDATING
+console.log (animal)
+animal.walkingStyle = "walks"
+animal.name = "cow"
+console.log (animal)
+
+//Deleting objects
+delete animal.head.haircolor
+console.log (animal)
 
