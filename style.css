@@ -304,4 +304,35 @@ body {
     border-radius: 15px;
   }
 
-  
+  .test-section {
+    background-color: burlywood;
+    padding: 50px;
+  }
+
+  .test-container {
+    background-color: aliceblue;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    padding: 50px;
+    /* text-align: center; */
+   
+
+  }
+
+.test-card {
+    background-color: blueviolet;
+    /* border-radius: 15px; */
+    width: 50%;
+    height: 100px;
+    /* text-align: center; */
+} 
+
+.test-card h1 {
+    text-align: center;
+}
+
+
+
