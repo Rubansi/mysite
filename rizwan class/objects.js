@@ -48,3 +48,9 @@ console.log (animal)
 delete animal.head.haircolor
 console.log (animal)
 
+console.log
+console.log {
+    []
+}
+
+
