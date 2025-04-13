@@ -334,5 +334,10 @@ body {
     text-align: center;
 }
 
-
+form {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    align-items: center;
+}
 
