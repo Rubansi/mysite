@@ -1,4 +1,4 @@
-# Test Markdown Doc Using - Typora
+# Test Markdown Doc  - Using Typora
 
 ## My First Markdown File
 
